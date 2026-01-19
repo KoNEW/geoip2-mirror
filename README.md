@@ -5,7 +5,7 @@ A mirror of [MaxMind's GeoLite2](https://dev.maxmind.com/geoip/geoip2/geolite2/)
 Data is updated on Tuesdays and Fridays at around 9PM GMT
 
 ## Download
-Check [latest release](https://github.com/Skiddle-ID/geoip2-mirror/releases/latest).
+Check [latest release](https://github.com/KoNEW/geoip2-mirror/releases/latest).
 
 ## License
 Database and Contents Copyright (c) [MaxMind](https://www.maxmind.com/), Inc.
