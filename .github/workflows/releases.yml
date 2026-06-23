@@ -27,7 +27,10 @@ jobs:
         wget -nv -O GeoLite2-City-CSV.zip "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City-CSV&license_key=${{ secrets.MAXMIND_KEY }}&suffix=zip"
 
     - name: Decompress Zips
-      run: unzip -qq GeoLite2-*-CSV.zip
+      run: |
+        unzip -qq GeoLite2-ASN-CSV.zip
+        unzip -qq GeoLite2-Country-CSV.zip
+        unzip -qq GeoLite2-City-CSV.zip
 #      uses: TonyBogdanov/zip@1.0
 #      with:
 #        args: unzip -qq GeoLite2-*-CSV.zip
